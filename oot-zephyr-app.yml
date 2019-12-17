@@ -8,5 +8,5 @@ manifest:
       revision: master
       import: true
 
-self:
-  path: myapp
+  self:
+    path: myapp

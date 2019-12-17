@@ -3,10 +3,11 @@ manifest:
     - name: ncs
       url-base: https://github.com/NordicPlayground
   projects:
-    - name: fw-nrfconnect-nrf
+    - name:nrf
+      repo-path: fw-nrfconnect-nrf
       remote: ncs
       revision: master
       import: true
 
-self:
-  path: myapp
+  self:
+    path: myapp
